@@ -66,15 +66,17 @@ section {
   display: inline-block;
 }
 
-.navbar__menu .menu__link {
+.navbar__menu .dynamic_menu {
   display: block;
   padding: 1em;
   font-weight: bold;
   text-decoration: none;
   color: #000;
+  letter-spacing: .1rem;
+  font-family: 'Staatliches', cursive;
 }
 
-.navbar__menu .menu__link:hover {
+.navbar__menu .dynamic_menu:hover {
   background: #333;
   color: #fff;
   transition: ease 0.3s all;

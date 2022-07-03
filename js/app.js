@@ -53,7 +53,7 @@ NAV_SECTIONS.forEach(section => {
      const SECTION_NUMBER = section.id;
     //  console.log(SECTION_NUMBER);
      const SECTION_ATTRIBUTE = section.dataset.nav;
-     navMenu += `<li> <a class="menu_item_link" href="#${SECTION_NUMBER}">${SECTION_ATTRIBUTE}</a></li>`   
+     navMenu += `<li> <a class="dynamic_menu" href="#${SECTION_NUMBER}">${SECTION_ATTRIBUTE}</a></li>`   
    })
 NAV_BAR.innerHTML=navMenu;
 }
