@@ -11,13 +11,13 @@ body {
   color: #fff;
 }
 
-
 /* Typeography General*/
 h1 {
   font-family: 'Staatliches', cursive;
-  font-size: 3em;
+  font-size: 4em;
   margin: 2em 1rem;
   letter-spacing: .1rem;
+  
 }
 
 @media only screen and (min-width: 35em){
@@ -30,7 +30,7 @@ h1 {
 h2 {
   border-bottom: 1px solid #cc1;
   font-family: 'Staatliches', cursive;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #fff;
   letter-spacing: .1rem;
 }
@@ -72,7 +72,7 @@ section {
 
 .navbar__menu .dynamic_menu {
   display: block;
-  padding: .75em;
+  padding: 1em;
   font-weight: bold;
   text-decoration: none;
   color: #000;
@@ -98,12 +98,26 @@ section {
 /* Footer Styles */
 .page__footer {
   background: #000;
-  padding: 3em;
+  padding: 1em;
   color: #fff;
 }
 
 .page__footer p{
   color: #fff;
+}
+
+.footer__layout {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0px 5em;
+  align-items: center;
+  padding: 0px;
+}
+
+.social-link {
+  height: 2em ;
 }
 
 
@@ -113,6 +127,16 @@ section {
   padding: 1em;
   text-align: left;
 }
+
+date{
+  color: #d1cfc8;
+}
+
+.experience__header {
+ font-size: 1.1rem;
+}
+
+li
 
 @media only screen and (min-width: 35em){
   .landing__container {
