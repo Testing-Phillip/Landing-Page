@@ -4,7 +4,7 @@ const NAV_SECTIONS = document.querySelectorAll('section'); //creates const for s
 const nav_menu_items = () => {
 	let navMenu = '';
 
-	NAV_SECTIONS.forEach(section => {
+	NAV_SECTIONS.forEach(section => { //creates the dynamic navbar li
 		const SECTION_NUMBER = section.id;
 		const SECTION_ATTRIBUTE = section.dataset.nav;
 		navMenu += `<li> <a class="dynamic_menu" href="#${SECTION_NUMBER}">${SECTION_ATTRIBUTE}</a></li>`;

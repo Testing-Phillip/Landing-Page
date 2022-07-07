@@ -136,8 +136,6 @@ date{
  font-size: 1.1rem;
 }
 
-li
-
 @media only screen and (min-width: 35em){
   .landing__container {
       max-width: 50em;
